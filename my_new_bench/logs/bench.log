@@ -1,0 +1,184 @@
+2026-02-18 04:29:01,687 DEBUG cd my_new_bench && uv venv env --seed --python python3
+2026-02-18 04:29:01,961 LOG Getting frappe
+2026-02-18 04:29:01,962 DEBUG cd my_new_bench/apps && git clone https://github.com/frappe/frappe.git  --depth 1 --origin upstream
+2026-02-18 04:29:05,250 LOG Installing frappe
+2026-02-18 04:29:05,253 DEBUG cd /workspaces/ERPNext-Python-Developer-Assessment-Task/my_new_bench && uv pip install --quiet --upgrade -e /workspaces/ERPNext-Python-Developer-Assessment-Task/my_new_bench/apps/frappe  --python /workspaces/ERPNext-Python-Developer-Assessment-Task/my_new_bench/env/bin/python
+2026-02-18 04:29:09,586 WARNING cd /workspaces/ERPNext-Python-Developer-Assessment-Task/my_new_bench && uv pip install --quiet --upgrade -e /workspaces/ERPNext-Python-Developer-Assessment-Task/my_new_bench/apps/frappe  --python /workspaces/ERPNext-Python-Developer-Assessment-Task/my_new_bench/env/bin/python executed with exit code 1
+2026-02-18 04:29:09,587 WARNING /home/codespace/.python/current/bin/bench init my_new_bench --skip-redis-config-generation --python python3 executed with exit code 167
+2026-02-18 04:30:36,837 INFO /home/codespace/.python/current/bin/bench new-site site1.localhost --admin-password admin --mariadb-root-password root
+2026-02-18 11:54:43,457 INFO /home/codespace/.python/current/bin/bench new-site site1.localhost --admin-password admin --mariadb-root-password root
+2026-02-18 11:56:31,618 INFO /home/codespace/.python/current/bin/bench setup env
+2026-02-18 11:56:32,729 DEBUG uv pip install --quiet --upgrade -e ./apps/frappe --python /workspaces/ERPNext-Python-Developer-Assessment-Task/my_new_bench/env/bin/python
+2026-02-18 11:56:38,833 WARNING uv pip install --quiet --upgrade -e ./apps/frappe --python /workspaces/ERPNext-Python-Developer-Assessment-Task/my_new_bench/env/bin/python executed with exit code 1
+2026-02-18 11:56:38,834 WARNING /home/codespace/.python/current/bin/bench setup env executed with exit code 1
+2026-02-18 11:56:47,716 INFO /home/codespace/.python/current/bin/bench new-site site1.localhost --admin-password admin --mariadb-root-password root
+2026-02-18 12:00:35,984 INFO /home/codespace/.python/current/bin/bench new-site site1.localhost --admin-password admin --mariadb-root-password root
+2026-02-18 12:01:32,986 INFO /home/codespace/.python/current/bin/bench new-site site1.localhost --admin-password admin --mariadb-root-password root
+2026-02-18 12:01:55,971 INFO /home/codespace/.python/current/bin/bench setup config
+2026-02-18 12:02:04,106 INFO /home/codespace/.python/current/bin/bench new-site site1.localhost --admin-password admin --mariadb-root-password root
+2026-02-18 12:02:27,867 INFO /home/codespace/.python/current/bin/bench new-app leave_management
+2026-02-18 12:02:27,872 LOG creating new app leave_management
+2026-02-18 12:04:24,052 LOG Installing leave_management
+2026-02-18 12:04:24,053 DEBUG cd /workspaces/ERPNext-Python-Developer-Assessment-Task/my_new_bench && uv pip install --quiet --upgrade -e /workspaces/ERPNext-Python-Developer-Assessment-Task/my_new_bench/apps/leave_management  --python /workspaces/ERPNext-Python-Developer-Assessment-Task/my_new_bench/env/bin/python
+2026-02-18 12:04:24,657 DEBUG bench build --app leave_management
+2026-02-18 12:04:24,812 INFO /home/codespace/.python/current/bin/bench build --app leave_management
+2026-02-18 12:04:29,083 WARNING bench build --app leave_management executed with exit code 1
+2026-02-18 12:04:29,083 WARNING /home/codespace/.python/current/bin/bench new-app leave_management executed with exit code 1
+2026-02-18 12:06:05,390 INFO /home/codespace/.python/current/bin/bench setup yarn
+2026-02-18 12:06:05,395 WARNING /home/codespace/.python/current/bin/bench setup yarn executed with exit code 2
+2026-02-18 12:06:59,304 INFO /home/codespace/.python/current/bin/bench build --app frappe
+2026-02-18 12:07:00,265 INFO /home/codespace/.python/current/bin/bench build --app leave_management
+2026-02-18 12:07:39,443 INFO /home/codespace/.python/current/bin/bench --site site1.localhost install-app leave_management
+2026-02-18 12:11:32,927 INFO /home/codespace/.python/current/bin/bench new-app leave_management
+2026-02-18 12:11:32,939 LOG creating new app leave_management
+2026-02-18 12:11:53,944 WARNING /home/codespace/.python/current/bin/bench new-app leave_management executed with exit code 1
+2026-02-18 12:12:01,843 INFO /home/codespace/.python/current/bin/bench new-app leave_management
+2026-02-18 12:12:01,852 LOG creating new app leave_management
+2026-02-18 12:12:37,050 LOG Installing leave_management
+2026-02-18 12:12:37,051 DEBUG cd /workspaces/ERPNext-Python-Developer-Assessment-Task/my_new_bench && uv pip install --quiet --upgrade -e /workspaces/ERPNext-Python-Developer-Assessment-Task/my_new_bench/apps/leave_management  --python /workspaces/ERPNext-Python-Developer-Assessment-Task/my_new_bench/env/bin/python
+2026-02-18 12:12:37,694 DEBUG bench build --app leave_management
+2026-02-18 12:12:37,832 INFO /home/codespace/.python/current/bin/bench build --app leave_management
+2026-02-18 12:12:38,615 WARNING bench build --app leave_management executed with exit code 1
+2026-02-18 12:12:38,615 WARNING /home/codespace/.python/current/bin/bench new-app leave_management executed with exit code 1
+2026-02-18 12:13:00,050 INFO /home/codespace/.python/current/bin/bench --site site1.localhost install-app leave_management
+2026-02-18 12:13:24,676 INFO /home/codespace/.python/current/bin/bench new-site site1.localhost --admin-password admin --mariadb-root-password root --force
+2026-02-18 12:13:55,235 INFO /home/codespace/.python/current/bin/bench --site site1.localhost install-app leave_management
+2026-02-18 12:13:57,790 INFO /home/codespace/.python/current/bin/bench start
+2026-02-18 12:14:52,668 INFO /home/codespace/.python/current/bin/bench web
+2026-02-18 12:15:17,002 INFO /home/codespace/.python/current/bin/bench serve
+2026-02-18 12:15:56,274 INFO /home/codespace/.python/current/bin/bench use site1.localhost
+2026-02-18 12:16:06,238 INFO /home/codespace/.python/current/bin/bench start
+2026-02-18 12:16:06,865 INFO /home/codespace/.python/current/bin/bench watch
+2026-02-18 12:16:06,890 INFO /home/codespace/.python/current/bin/bench serve --port 8000
+2026-02-18 12:16:06,994 INFO /home/codespace/.python/current/bin/bench schedule
+2026-02-18 12:16:07,020 INFO /home/codespace/.python/current/bin/bench worker
+2026-02-18 12:16:37,164 INFO /home/codespace/.python/current/bin/bench serve
+2026-02-18 12:17:39,806 INFO /home/codespace/.python/current/bin/bench use site1.localhost
+2026-02-18 12:17:45,305 INFO /home/codespace/.python/current/bin/bench start
+2026-02-18 12:19:10,177 INFO /home/codespace/.python/current/bin/bench serve --port 8000
+2026-02-18 12:19:57,379 INFO /home/codespace/.python/current/bin/bench --site site1.localhost serve --port 8000
+2026-02-18 12:54:25,371 INFO /home/codespace/.python/current/bin/bench init frappe-bench --frappe-branch version-15
+2026-02-18 12:54:25,379 DEBUG cd frappe-bench && uv venv env --seed --python python3
+2026-02-18 12:54:26,960 LOG Getting frappe
+2026-02-18 12:54:26,961 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git --branch version-15 --depth 1 --origin upstream
+2026-02-18 12:54:32,585 LOG Installing frappe
+2026-02-18 12:54:32,587 DEBUG cd /workspaces/ERPNext-Python-Developer-Assessment-Task/my_new_bench/frappe-bench && uv pip install --quiet --upgrade -e /workspaces/ERPNext-Python-Developer-Assessment-Task/my_new_bench/frappe-bench/apps/frappe  --python /workspaces/ERPNext-Python-Developer-Assessment-Task/my_new_bench/frappe-bench/env/bin/python
+2026-02-18 12:55:06,296 DEBUG cd /workspaces/ERPNext-Python-Developer-Assessment-Task/my_new_bench/frappe-bench/apps/frappe && yarn install --check-files
+2026-02-18 12:55:52,828 DEBUG cd frappe-bench && bench build
+2026-02-18 12:56:20,890 LOG setting up backups
+2026-02-18 12:56:21,910 ERROR There was a problem while creating frappe-bench
+2026-02-18 12:56:44,091 INFO Rolling back Bench "frappe-bench"
+2026-02-18 12:58:58,007 INFO /home/codespace/.python/current/bin/bench init frappe-bench --frappe-branch version-15
+2026-02-18 12:58:58,016 DEBUG cd frappe-bench && uv venv env --seed --python python3
+2026-02-18 12:58:59,052 LOG Getting frappe
+2026-02-18 12:58:59,052 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git --branch version-15 --depth 1 --origin upstream
+2026-02-18 12:59:04,043 LOG Installing frappe
+2026-02-18 12:59:04,045 DEBUG cd /workspaces/ERPNext-Python-Developer-Assessment-Task/my_new_bench/frappe-bench && uv pip install --quiet --upgrade -e /workspaces/ERPNext-Python-Developer-Assessment-Task/my_new_bench/frappe-bench/apps/frappe  --python /workspaces/ERPNext-Python-Developer-Assessment-Task/my_new_bench/frappe-bench/env/bin/python
+2026-02-18 12:59:17,841 DEBUG cd /workspaces/ERPNext-Python-Developer-Assessment-Task/my_new_bench/frappe-bench/apps/frappe && yarn install --check-files
+2026-02-18 12:59:45,931 DEBUG cd frappe-bench && bench build
+2026-02-18 13:00:14,184 LOG setting up backups
+2026-02-18 13:00:15,877 ERROR There was a problem while creating frappe-bench
+2026-02-18 13:00:53,531 INFO Rolling back Bench "frappe-bench"
+2026-02-18 13:04:52,008 INFO /home/codespace/.python/current/bin/bench new-site erp.local
+2026-02-18 13:05:02,237 INFO /home/codespace/.python/current/bin/bench new-site erp.local
+2026-02-18 13:05:15,692 INFO /home/codespace/.python/current/bin/bench get-app erpnext --branch version-15
+2026-02-18 13:05:16,090 LOG Getting erpnext
+2026-02-18 13:05:16,090 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-15 --depth 1 --origin upstream
+2026-02-18 13:05:21,224 LOG Installing erpnext
+2026-02-18 13:05:21,225 DEBUG cd /workspaces/ERPNext-Python-Developer-Assessment-Task/my_new_bench && uv pip install --quiet --upgrade -e /workspaces/ERPNext-Python-Developer-Assessment-Task/my_new_bench/apps/erpnext  --python /workspaces/ERPNext-Python-Developer-Assessment-Task/my_new_bench/env/bin/python
+2026-02-18 13:05:29,575 DEBUG cd /workspaces/ERPNext-Python-Developer-Assessment-Task/my_new_bench/apps/erpnext && yarn install --check-files
+2026-02-18 13:05:30,093 DEBUG bench build --app erpnext
+2026-02-18 13:05:30,262 INFO /home/codespace/.python/current/bin/bench build --app erpnext
+2026-02-18 13:05:32,810 WARNING bench build --app erpnext executed with exit code 1
+2026-02-18 13:05:32,811 WARNING /home/codespace/.python/current/bin/bench get-app erpnext --branch version-15 executed with exit code 1
+2026-02-18 13:05:33,195 INFO /home/codespace/.python/current/bin/bench --site erp.local install-app erpnext
+2026-02-18 13:05:41,180 INFO /home/codespace/.python/current/bin/bench start
+2026-02-18 13:05:42,011 INFO /home/codespace/.python/current/bin/bench watch
+2026-02-18 13:05:42,095 INFO /home/codespace/.python/current/bin/bench serve --port 8000
+2026-02-18 13:05:42,137 INFO /home/codespace/.python/current/bin/bench schedule
+2026-02-18 13:05:42,151 INFO /home/codespace/.python/current/bin/bench worker
+2026-02-18 13:06:13,237 INFO /home/codespace/.python/current/bin/bench new-site erp.local
+2026-02-18 13:06:43,745 INFO /home/codespace/.python/current/bin/bench start
+2026-02-18 13:06:44,540 INFO /home/codespace/.python/current/bin/bench schedule
+2026-02-18 13:06:44,677 INFO /home/codespace/.python/current/bin/bench watch
+2026-02-18 13:06:44,674 INFO /home/codespace/.python/current/bin/bench worker
+2026-02-18 13:06:44,675 INFO /home/codespace/.python/current/bin/bench serve --port 8000
+2026-02-18 13:10:39,102 INFO /home/codespace/.python/current/bin/bench doctor
+2026-02-18 13:11:22,733 INFO /home/codespace/.python/current/bin/bench setup redis
+2026-02-18 13:11:32,513 INFO /home/codespace/.python/current/bin/bench restart
+2026-02-18 13:11:32,950 INFO /home/codespace/.python/current/bin/bench start
+2026-02-18 13:11:33,599 INFO /home/codespace/.python/current/bin/bench serve --port 8000
+2026-02-18 13:11:33,754 INFO /home/codespace/.python/current/bin/bench schedule
+2026-02-18 13:11:33,781 INFO /home/codespace/.python/current/bin/bench worker
+2026-02-18 13:11:33,862 INFO /home/codespace/.python/current/bin/bench watch
+2026-02-18 13:12:01,387 INFO /home/codespace/.python/current/bin/bench doctor
+2026-02-18 13:13:31,503 INFO /home/codespace/.python/current/bin/bench set-config -g redis_cache redis://127.0.0.1:6379
+2026-02-18 13:13:32,229 INFO /home/codespace/.python/current/bin/bench set-config -g redis_queue redis://127.0.0.1:6379
+2026-02-18 13:13:32,996 INFO /home/codespace/.python/current/bin/bench set-config -g redis_socketio redis://127.0.0.1:6379
+2026-02-18 13:13:40,148 INFO /home/codespace/.python/current/bin/bench restart
+2026-02-18 13:13:40,578 INFO /home/codespace/.python/current/bin/bench start
+2026-02-18 13:13:41,406 INFO /home/codespace/.python/current/bin/bench worker
+2026-02-18 13:13:41,441 INFO /home/codespace/.python/current/bin/bench schedule
+2026-02-18 13:13:41,569 INFO /home/codespace/.python/current/bin/bench serve --port 8000
+2026-02-18 13:14:10,540 INFO /home/codespace/.python/current/bin/bench doctor
+2026-02-18 13:15:12,204 INFO /home/codespace/.python/current/bin/bench --site site1.localhost enable-scheduler
+2026-02-18 13:15:19,321 INFO /home/codespace/.python/current/bin/bench restart
+2026-02-18 13:15:29,465 INFO /home/codespace/.python/current/bin/bench start
+2026-02-18 13:15:29,935 INFO /home/codespace/.python/current/bin/bench watch
+2026-02-18 13:15:30,149 INFO /home/codespace/.python/current/bin/bench serve --port 8000
+2026-02-18 13:15:30,150 INFO /home/codespace/.python/current/bin/bench schedule
+2026-02-18 13:15:30,200 INFO /home/codespace/.python/current/bin/bench worker
+2026-02-18 13:15:36,300 INFO /home/codespace/.python/current/bin/bench doctor
+2026-02-18 13:16:01,775 INFO /home/codespace/.python/current/bin/bench start
+2026-02-18 13:16:02,368 INFO /home/codespace/.python/current/bin/bench watch
+2026-02-18 13:16:02,518 INFO /home/codespace/.python/current/bin/bench serve --port 8000
+2026-02-18 13:17:43,583 INFO /home/codespace/.python/current/bin/bench build
+2026-02-18 13:18:31,589 INFO /home/codespace/.python/current/bin/bench setup requirements
+2026-02-18 13:18:31,597 DEBUG uv pip install --quiet --upgrade pip --python /workspaces/ERPNext-Python-Developer-Assessment-Task/my_new_bench/env/bin/python
+2026-02-18 13:18:31,992 LOG Installing frappe
+2026-02-18 13:18:31,993 DEBUG cd /workspaces/ERPNext-Python-Developer-Assessment-Task/my_new_bench && uv pip install --quiet --upgrade -e /workspaces/ERPNext-Python-Developer-Assessment-Task/my_new_bench/apps/frappe  --python /workspaces/ERPNext-Python-Developer-Assessment-Task/my_new_bench/env/bin/python
+2026-02-18 13:18:34,620 DEBUG cd /workspaces/ERPNext-Python-Developer-Assessment-Task/my_new_bench/apps/frappe && yarn install --check-files
+2026-02-18 13:19:02,813 LOG Installing leave_management
+2026-02-18 13:19:02,814 DEBUG cd /workspaces/ERPNext-Python-Developer-Assessment-Task/my_new_bench && uv pip install --quiet --upgrade -e /workspaces/ERPNext-Python-Developer-Assessment-Task/my_new_bench/apps/leave_management  --python /workspaces/ERPNext-Python-Developer-Assessment-Task/my_new_bench/env/bin/python
+2026-02-18 13:19:03,432 LOG Installing erpnext
+2026-02-18 13:19:03,432 DEBUG cd /workspaces/ERPNext-Python-Developer-Assessment-Task/my_new_bench && uv pip install --quiet --upgrade -e /workspaces/ERPNext-Python-Developer-Assessment-Task/my_new_bench/apps/erpnext  --python /workspaces/ERPNext-Python-Developer-Assessment-Task/my_new_bench/env/bin/python
+2026-02-18 13:19:04,398 DEBUG cd /workspaces/ERPNext-Python-Developer-Assessment-Task/my_new_bench/apps/erpnext && yarn install --check-files
+2026-02-18 13:20:02,473 INFO /home/codespace/.python/current/bin/bench build --verbose
+2026-02-18 13:21:04,505 INFO /home/codespace/.python/current/bin/bench start
+2026-02-18 13:21:05,154 INFO /home/codespace/.python/current/bin/bench schedule
+2026-02-18 13:21:05,296 INFO /home/codespace/.python/current/bin/bench serve --port 8000
+2026-02-18 13:21:05,331 INFO /home/codespace/.python/current/bin/bench watch
+2026-02-18 13:21:05,343 INFO /home/codespace/.python/current/bin/bench worker
+2026-02-18 13:23:40,385 INFO /home/codespace/.python/current/bin/bench doctor
+2026-02-18 13:25:27,157 INFO /home/codespace/.python/current/bin/bench --site site1.localhost serve --port 8000
+2026-02-18 14:43:05,699 INFO /home/codespace/.python/current/bin/bench restart
+2026-02-18 14:43:06,171 INFO /home/codespace/.python/current/bin/bench clear-cache
+2026-02-18 14:44:32,039 INFO /home/codespace/.python/current/bin/bench --site site1.localhost logs
+2026-02-18 14:44:45,228 INFO /home/codespace/.python/current/bin/bench --site site1.localhost logs
+2026-02-18 14:45:09,718 INFO /home/codespace/.python/current/bin/bench --site site1.localhost install-app leave_management
+2026-02-18 14:45:10,904 INFO /home/codespace/.python/current/bin/bench start
+2026-02-18 14:45:11,482 INFO /home/codespace/.python/current/bin/bench worker
+2026-02-18 14:45:11,605 INFO /home/codespace/.python/current/bin/bench watch
+2026-02-18 14:45:11,721 INFO /home/codespace/.python/current/bin/bench serve --port 8000
+2026-02-18 14:45:11,749 INFO /home/codespace/.python/current/bin/bench schedule
+2026-02-18 14:49:06,415 INFO /home/codespace/.python/current/bin/bench --site site1.localhost install-app leave_management
+2026-02-18 14:49:07,544 INFO /home/codespace/.python/current/bin/bench start
+2026-02-18 14:49:08,144 INFO /home/codespace/.python/current/bin/bench worker
+2026-02-18 14:49:08,310 INFO /home/codespace/.python/current/bin/bench schedule
+2026-02-18 14:49:08,421 INFO /home/codespace/.python/current/bin/bench serve --port 8000
+2026-02-18 14:49:08,434 INFO /home/codespace/.python/current/bin/bench watch
+2026-02-19 04:12:50,247 INFO /home/codespace/.python/current/bin/bench build --app leave_management
+2026-02-19 04:13:13,395 INFO /home/codespace/.python/current/bin/bench --site site1.local migrate
+2026-02-19 04:13:50,404 INFO /home/codespace/.python/current/bin/bench --site site1.localhost migrate
+2026-02-19 04:14:06,351 INFO /home/codespace/.python/current/bin/bench --site site1.localhost install-app leave_management
+2026-02-19 04:15:01,247 INFO /home/codespace/.python/current/bin/bench --site site1.localhost migrate
+2026-02-19 04:15:32,512 INFO /home/codespace/.python/current/bin/bench start
+2026-02-19 04:15:34,415 INFO /home/codespace/.python/current/bin/bench worker
+2026-02-19 04:15:34,446 INFO /home/codespace/.python/current/bin/bench schedule
+2026-02-19 04:15:34,464 INFO /home/codespace/.python/current/bin/bench serve --port 8000
+2026-02-19 04:15:34,633 INFO /home/codespace/.python/current/bin/bench watch
+2026-02-19 04:23:13,830 INFO /home/codespace/.python/current/bin/bench start
+2026-02-19 04:23:14,346 INFO /home/codespace/.python/current/bin/bench schedule
+2026-02-19 04:23:14,464 INFO /home/codespace/.python/current/bin/bench worker
+2026-02-19 04:23:14,560 INFO /home/codespace/.python/current/bin/bench watch
+2026-02-19 04:23:14,585 INFO /home/codespace/.python/current/bin/bench serve --port 8000

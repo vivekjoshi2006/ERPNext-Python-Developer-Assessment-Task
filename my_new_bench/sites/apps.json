@@ -1,0 +1,30 @@
+{
+    "frappe": {
+        "resolution": {
+            "commit_hash": null,
+            "branch": null
+        },
+        "required": [],
+        "idx": 1,
+        "version": "15.100.1"
+    },
+    "leave_management": {
+        "resolution": {
+            "commit_hash": null,
+            "branch": null
+        },
+        "required": [],
+        "idx": 2,
+        "version": "0.0.1"
+    },
+    "erpnext": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "a66854d16d4ca936bddec37b9fd384d0b719ae8a",
+            "branch": "version-15"
+        },
+        "required": [],
+        "idx": 3,
+        "version": "15.98.0"
+    }
+}
